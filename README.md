@@ -4,16 +4,10 @@
 
 https://hub.docker.com/repository/docker/boreal321/json-server-faker
 
-For both arm64 and amd64 
+For both arm64 and amd64 (the 1.0 tag is for arm64 only)
 
 ```
 docker pull boreal321/json-server-faker:1.1
-```
-
-For arm64 processors (Apple)
-
-```
-docker pull boreal321/json-server-faker:1.0
 ```
 
 ## Component Parts
@@ -22,7 +16,6 @@ docker pull boreal321/json-server-faker:1.0
 
 [faker](https://github.com/faker-js/faker)
 
-faker code provided by [koodalabs](https://github.com/koodalabs/json-server-fake-reddit-albums)
+Data loading faker code comes from [koodalabs](https://github.com/koodalabs/json-server-fake-reddit-albums)
 
-[how to generate a docker image for both arm64 and amd64](https://docs.docker.com/build/building/multi-platform/)
-
+[How to generate a docker image for both arm64 and amd64.](https://docs.docker.com/build/building/multi-platform/)
